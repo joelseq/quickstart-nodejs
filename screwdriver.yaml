@@ -33,6 +33,8 @@ jobs:
       # The next step is "test". It tests your NodeJS package
       # NPM reference document - https://docs.npmjs.com/cli/test
       - test: npm test
+      # This step is for testing purposes
+      - sd-foo: echo bar
   # We define another Job called "publish". In this stage of the pipeline, we intend
   # on publishing our package to the NPM Registry.
   publish:
