@@ -22,6 +22,7 @@ jobs:
   # We explicitly define "main" in our configuration so that it does what we want
   # it to do.
   main:
+    description: This is a big change
     # Steps is the ordered list of commands to execute.
     # Each step takes the form "step_name: command_to_run". The "step_name" is a
     # convenient label to reference it by. The "command_to_run" is the single 
